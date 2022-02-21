@@ -1,0 +1,29 @@
+{
+  "@id": "dtmi:com:telstra:mqtt:cumulocity110;1",
+  "@type": "Interface",
+  "displayName": "CumulocityDevice",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "CumulocityDeviceProperties",
+      "schema": {
+        "@type": "Object",
+        "fields": [
+          {
+            "name": "serialNumber",
+            "schema": "string"
+          },
+          {
+            "name": "hardwareModel",
+            "schema": "time"
+          },
+          {
+            "name": "revision",
+            "schema": "integer"
+          }
+        ]
+      }
+    }
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}
